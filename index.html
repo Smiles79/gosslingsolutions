@@ -63,10 +63,11 @@
         }
         
         .app-icon {
-            width: 60px;
-            height: 60px;
-            border-radius: 12px;
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            object-fit: cover;
         }
         
         .app-stores {
@@ -152,7 +153,7 @@
         
         <div class="app-section">
             <h2>
-                <img src="part-scavenger-icon.png" alt="Part Scavenger Icon" class="app-icon">
+                <img src="part-scavenger-icon.png" alt="Part Scavenger Icon" class="app-icon" onerror="this.style.display='none'">
                 Part Scavenger
             </h2>
             <div class="app-stores">
